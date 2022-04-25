@@ -17,4 +17,4 @@ Sends a file provided by the client to the server line by line, prints the outpu
     - `port` is the server's listening port.
     - `ipaddr` is the server's address.
     - `filename` is the path to the desired file.
-    - for example, `python client.py 12345, 127.0.0.1, file.txt` will send `file.txt`'s contents to port 12345 of machine using address 127.0.0.1
+    - for example, `python client.py 12345 127.0.0.1 file.txt` will send `file.txt`'s contents to port 12345 of machine using address 127.0.0.1
